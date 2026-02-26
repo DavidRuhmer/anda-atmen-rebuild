@@ -18,7 +18,29 @@ export default function CookieBanner() {
       // Small delay for better UX
       const timer = setTimeout(() => setIsVisible(true), 1000);
       return () => clearTimeout(timer);
+    } else {
+      // Load existing settings
+      try {
+        const saved = JSON.parse(consent);
+        setSettings({
+          necessary: true,
+          analytics: saved.analytics || false,
+          marketing: saved.marketing || false,
+        });
+      } catch {
+        // Invalid consent, show banner
+        setIsVisible(true);
+      }
     }
+
+    // Listen for event to re-open cookie settings
+    const handleOpenSettings = () => {
+      setShowSettings(true);
+      setIsVisible(true);
+    };
+
+    window.addEventListener("open-cookie-settings", handleOpenSettings);
+    return () => window.removeEventListener("open-cookie-settings", handleOpenSettings);
   }, []);
 
   const saveConsent = (consent: typeof settings) => {

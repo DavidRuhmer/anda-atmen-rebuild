@@ -1,7 +1,12 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 
 export default function Footer() {
+  const openCookieSettings = () => {
+    window.dispatchEvent(new CustomEvent("open-cookie-settings"));
+  };
   return (
     <footer className="bg-background border-t border-border py-12">
       <div className="section-container">
@@ -71,6 +76,14 @@ export default function Footer() {
                 <Link href="/datenschutz" className="text-foreground/70 hover:text-primary transition-colors">
                   Datenschutz
                 </Link>
+              </li>
+              <li>
+                <button
+                  onClick={openCookieSettings}
+                  className="text-foreground/70 hover:text-primary transition-colors"
+                >
+                  Cookie-Einstellungen
+                </button>
               </li>
             </ul>
 
