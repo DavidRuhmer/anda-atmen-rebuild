@@ -19,6 +19,15 @@ const articles = [
     description:
       "Eine umfassende Einführung in die Methode des Holotropen Atmens, ihre Geschichte und wie eine typische Session abläuft.",
     readTime: "8 Min. Lesezeit",
+    category: "Grundlagen",
+  },
+  {
+    slug: "anleitung-und-ablauf",
+    title: "Anleitung und Ablauf",
+    description:
+      "Schritt für Schritt durch eine Holotrope Atemsession: Vorbereitung, Atmung, Musik, Körperarbeit und Integration.",
+    readTime: "10 Min. Lesezeit",
+    category: "Grundlagen",
   },
   {
     slug: "wirkung-und-erfahrungen",
@@ -26,6 +35,15 @@ const articles = [
     description:
       "Erfahren Sie, welche Wirkungen Holotropes Atmen hat und welche Erfahrungen Teilnehmer in unseren Seminaren machen.",
     readTime: "6 Min. Lesezeit",
+    category: "Grundlagen",
+  },
+  {
+    slug: "musik-holotropes-atmen",
+    title: "Die Rolle der Musik",
+    description:
+      "Wie speziell ausgewählte Musik den Atemprozess unterstützt und transformative Erfahrungen ermöglicht.",
+    readTime: "7 Min. Lesezeit",
+    category: "Grundlagen",
   },
   {
     slug: "risiken-und-nebenwirkungen",
@@ -33,6 +51,47 @@ const articles = [
     description:
       "Wichtige Informationen zu Kontraindikationen, Sicherheitsvorkehrungen und für wen Holotropes Atmen nicht geeignet ist.",
     readTime: "5 Min. Lesezeit",
+    category: "Grundlagen",
+  },
+  {
+    slug: "stanislav-grof",
+    title: "Stanislav Grof",
+    description:
+      "Der Begründer des Holotropen Atmens: Vom LSD-Forscher zum Pionier der transpersonalen Psychologie.",
+    readTime: "8 Min. Lesezeit",
+    category: "Hintergrund",
+  },
+  {
+    slug: "erfahrungsebenen",
+    title: "Die fünf Erfahrungsebenen",
+    description:
+      "Welche Bewusstseinsebenen beim Holotropen Atmen zugänglich werden: von biografisch bis transpersonal.",
+    readTime: "8 Min. Lesezeit",
+    category: "Theorie",
+  },
+  {
+    slug: "perinatale-matrizen",
+    title: "Perinatale Matrizen",
+    description:
+      "Die vier Geburtsphasen nach Grof (BPM I-IV) und wie sie unser psychisches Leben prägen.",
+    readTime: "12 Min. Lesezeit",
+    category: "Theorie",
+  },
+  {
+    slug: "transpersonale-psychologie",
+    title: "Transpersonale Psychologie",
+    description:
+      "Die vierte Kraft der Psychologie: Brückenschlag zwischen Psychotherapie und Spiritualität.",
+    readTime: "10 Min. Lesezeit",
+    category: "Hintergrund",
+  },
+  {
+    slug: "spirituelle-krisen",
+    title: "Spirituelle Krisen",
+    description:
+      "Wenn sich das Bewusstsein öffnet: Intensive Transformationsprozesse verstehen und begleiten.",
+    readTime: "9 Min. Lesezeit",
+    category: "Theorie",
   },
 ];
 
