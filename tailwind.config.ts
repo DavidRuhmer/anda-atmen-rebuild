@@ -9,8 +9,21 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#f00069",
+        background: "#0f0e17",
+        foreground: "#fffffe",
+        accent: "#f00069",
+        beige: "#e9dcd1",
+        "gray-dark": "#475467",
+        "btn-bg": "#101828",
+        border: "#dfdad1",
+      },
+      fontFamily: {
+        jost: ["var(--font-jost)", "sans-serif"],
+        cardo: ["var(--font-cardo)", "serif"],
+      },
+      borderRadius: {
+        pill: "9999px",
       },
     },
   },
