@@ -39,7 +39,7 @@ export default function Header() {
               alt="Anda-Atmen Logo - Holotropes Atmen Österreich"
               width={120}
               height={40}
-              className="h-10 w-auto invert"
+              className="h-10 w-auto"
               priority
             />
           </Link>
@@ -93,7 +93,7 @@ export default function Header() {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="md:hidden mt-4 pb-4 border-t border-white/10">
+          <div className="md:hidden mt-4 pb-4 border-t border-border">
             <div className="flex flex-col gap-4 pt-4">
               {navLinks.map((link) => (
                 <Link

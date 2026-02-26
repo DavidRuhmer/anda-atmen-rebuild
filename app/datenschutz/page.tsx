@@ -22,7 +22,7 @@ export default function DatenschutzPage() {
         <div className="max-w-3xl">
           <h1 className="heading-1 text-foreground mb-8">Datenschutzerklärung</h1>
 
-          <div className="prose prose-lg prose-invert max-w-none space-y-8">
+          <div className="prose prose-lg prose-stone max-w-none space-y-8">
             <section>
               <h2 className="heading-2 text-foreground mb-4">1. Verantwortlicher</h2>
               <p className="body-text text-foreground/90">

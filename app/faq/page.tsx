@@ -105,7 +105,7 @@ export default function FAQPage() {
             {faqs.map((faq, index) => (
               <details
                 key={index}
-                className="group bg-white/5 rounded-xl border border-white/10 overflow-hidden"
+                className="group bg-card rounded-xl border border-border overflow-hidden"
               >
                 <summary className="flex items-center justify-between p-6 cursor-pointer list-none">
                   <h2 className="font-jost font-semibold text-foreground pr-4">

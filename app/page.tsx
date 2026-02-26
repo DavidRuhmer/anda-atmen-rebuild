@@ -121,7 +121,7 @@ export default function Home() {
       </section>
 
       {/* Holotropes Atmen Section */}
-      <section id="holotropes-atmen" className="py-20 bg-white/5">
+      <section id="holotropes-atmen" className="py-20 bg-card">
         <div className="section-container">
           <div className="max-w-4xl mx-auto">
             <h2 className="heading-2 text-foreground mb-8 text-center">
@@ -161,7 +161,7 @@ export default function Home() {
             {termine.map((termin) => (
               <article
                 key={termin.id}
-                className="bg-white/5 rounded-2xl p-8 border border-white/10 hover:border-primary/50 transition-all"
+                className="bg-card rounded-2xl p-8 border border-border hover:border-primary/50 transition-all"
               >
                 <div className="flex items-center gap-2 text-primary mb-4">
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -186,7 +186,7 @@ export default function Home() {
                   <p><strong>Max. Teilnehmer:</strong> {termin.maxParticipants} Personen</p>
                   {termin.note && <p className="text-primary">{termin.note}</p>}
                 </div>
-                <div className="flex items-center justify-between border-t border-white/10 pt-4">
+                <div className="flex items-center justify-between border-t border-border pt-4">
                   <div>
                     <p className="text-sm text-foreground/60">Frühbucher</p>
                     <p className="text-2xl font-jost font-bold text-primary">{termin.earlyBirdPrice}</p>
@@ -217,7 +217,7 @@ export default function Home() {
       </section>
 
       {/* Team Section */}
-      <section id="team" className="py-20 bg-white/5">
+      <section id="team" className="py-20 bg-card">
         <div className="section-container">
           <h2 className="heading-2 text-foreground mb-12 text-center">
             Unser Team

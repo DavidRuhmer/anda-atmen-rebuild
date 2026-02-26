@@ -31,7 +31,7 @@ export default function WirkungUndErfahrungenPage() {
             </p>
           </header>
 
-          <div className="prose prose-lg prose-invert max-w-none">
+          <div className="prose prose-lg prose-stone max-w-none">
             <h2 className="heading-2 text-foreground mt-12 mb-6">Was passiert im Körper?</h2>
             <p className="body-text text-foreground/90 mb-6">
               Durch die beschleunigte Atmung verändert sich der CO2-Gehalt im Blut, was zu einer

@@ -67,7 +67,7 @@ export default function RatgeberPage() {
             <Link
               key={article.slug}
               href={`/ratgeber/${article.slug}`}
-              className="group block bg-white/5 rounded-2xl p-6 border border-white/10 hover:border-primary/50 transition-all"
+              className="group block bg-card rounded-2xl p-6 border border-border hover:border-primary/50 transition-all"
             >
               <div className="flex items-center gap-2 text-primary text-sm mb-4">
                 <svg

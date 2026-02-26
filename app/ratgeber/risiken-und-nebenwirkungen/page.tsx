@@ -31,9 +31,9 @@ export default function RisikenUndNebenwirkungenPage() {
             </p>
           </header>
 
-          <div className="prose prose-lg prose-invert max-w-none">
+          <div className="prose prose-lg prose-stone max-w-none">
             <div className="bg-red-500/10 border border-red-500/30 rounded-2xl p-6 mb-8">
-              <h3 className="text-red-400 font-jost font-semibold mb-2">Wichtiger Hinweis</h3>
+              <h3 className="text-red-600 font-jost font-semibold mb-2">Wichtiger Hinweis</h3>
               <p className="text-foreground/90 text-sm">
                 Holotropes Atmen ist eine intensive Erfahrung. Bitte lesen Sie die folgenden
                 Kontraindikationen sorgfältig durch und konsultieren Sie im Zweifel Ihren Arzt.

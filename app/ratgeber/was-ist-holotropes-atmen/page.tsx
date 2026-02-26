@@ -89,7 +89,7 @@ export default function WasIstHolotropesAtmenPage() {
               className="rounded-2xl mb-12"
             />
 
-            <div className="prose prose-lg prose-invert max-w-none">
+            <div className="prose prose-lg prose-stone max-w-none">
               <h2 className="heading-2 text-foreground mt-12 mb-6">
                 Die Geschichte des Holotropen Atmens
               </h2>
@@ -191,12 +191,12 @@ export default function WasIstHolotropesAtmenPage() {
             </div>
 
             {/* Related Articles */}
-            <div className="mt-16 pt-12 border-t border-white/10">
+            <div className="mt-16 pt-12 border-t border-border">
               <h3 className="heading-3 text-foreground mb-6">Weitere Artikel</h3>
               <div className="grid sm:grid-cols-2 gap-6">
                 <Link
                   href="/ratgeber/wirkung-und-erfahrungen"
-                  className="group block bg-white/5 rounded-xl p-6 border border-white/10 hover:border-primary/50 transition-all"
+                  className="group block bg-card rounded-xl p-6 border border-border hover:border-primary/50 transition-all"
                 >
                   <h4 className="font-jost font-semibold text-foreground group-hover:text-primary transition-colors">
                     Wirkung und Erfahrungen
@@ -207,7 +207,7 @@ export default function WasIstHolotropesAtmenPage() {
                 </Link>
                 <Link
                   href="/ratgeber/risiken-und-nebenwirkungen"
-                  className="group block bg-white/5 rounded-xl p-6 border border-white/10 hover:border-primary/50 transition-all"
+                  className="group block bg-card rounded-xl p-6 border border-border hover:border-primary/50 transition-all"
                 >
                   <h4 className="font-jost font-semibold text-foreground group-hover:text-primary transition-colors">
                     Risiken und Nebenwirkungen

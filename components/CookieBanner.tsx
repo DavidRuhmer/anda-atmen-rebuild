@@ -37,7 +37,7 @@ export default function CookieBanner() {
   if (!isVisible) return null;
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-[100] bg-background border-t border-white/20 p-4 md:p-6 shadow-2xl">
+    <div className="fixed bottom-0 left-0 right-0 z-[100] bg-background border-t border-border p-4 md:p-6 shadow-2xl">
       <div className="section-container">
         <div className="flex flex-col lg:flex-row items-start lg:items-center gap-4">
           <div className="flex-1">
@@ -49,7 +49,7 @@ export default function CookieBanner() {
               Website zu bieten. Sie können wählen, welche Cookies Sie akzeptieren möchten.
             </p>
             {showDetails && (
-              <div className="mt-4 p-4 bg-white/5 rounded-lg text-sm">
+              <div className="mt-4 p-4 bg-card rounded-lg text-sm">
                 <div className="mb-3">
                   <strong className="text-primary">Notwendige Cookies:</strong>
                   <p className="text-foreground/70">

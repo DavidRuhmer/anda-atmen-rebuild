@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bg-background border-t border-white/10 py-12">
+    <footer className="bg-background border-t border-border py-12">
       <div className="section-container">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo & Info */}
@@ -13,7 +13,7 @@ export default function Footer() {
               alt="Anda-Atmen Logo"
               width={150}
               height={50}
-              className="h-12 w-auto invert mb-4"
+              className="h-12 w-auto mb-4"
             />
             <p className="body-text text-foreground/70 mb-4">
               Holotropes Atmen Seminare in Österreich. Erfahrene Therapeuten begleiten Sie
@@ -95,7 +95,7 @@ export default function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className="mt-12 pt-8 border-t border-white/10 text-center">
+        <div className="mt-12 pt-8 border-t border-border text-center">
           <p className="text-foreground/50 text-sm">
             © {new Date().getFullYear()} Anda-Atmen. Alle Rechte vorbehalten.
           </p>

@@ -10,11 +10,13 @@ const config: Config = {
     extend: {
       colors: {
         primary: "#f00069",
-        background: "#0f0e17",
-        foreground: "#fffffe",
+        background: "#e9dcd1",
+        foreground: "#1D2939",
         accent: "#f00069",
         beige: "#e9dcd1",
+        card: "#fffffe",
         "gray-dark": "#475467",
+        "gray-light": "#98A2B3",
         "btn-bg": "#101828",
         border: "#dfdad1",
       },
