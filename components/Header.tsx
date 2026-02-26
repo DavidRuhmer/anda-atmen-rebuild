@@ -18,8 +18,8 @@ export default function Header() {
 
   const navLinks = [
     { href: "/#holotropes-atmen", label: "Holotropes Atmen" },
-    { href: "/#termine", label: "Termine" },
-    { href: "/#team", label: "Team" },
+    { href: "/seminare", label: "Seminare" },
+    { href: "/team", label: "Team" },
     { href: "/ratgeber", label: "Ratgeber" },
     { href: "/faq", label: "FAQ" },
   ];

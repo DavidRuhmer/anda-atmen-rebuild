@@ -36,12 +36,12 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/#termine" className="text-foreground/70 hover:text-primary transition-colors">
-                  Termine
+                <Link href="/seminare" className="text-foreground/70 hover:text-primary transition-colors">
+                  Seminare
                 </Link>
               </li>
               <li>
-                <Link href="/#team" className="text-foreground/70 hover:text-primary transition-colors">
+                <Link href="/team" className="text-foreground/70 hover:text-primary transition-colors">
                   Team
                 </Link>
               </li>
