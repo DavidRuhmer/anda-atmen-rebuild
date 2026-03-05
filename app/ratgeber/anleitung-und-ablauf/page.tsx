@@ -43,9 +43,6 @@ export default function AnleitungAblaufPage() {
 
           <div className="max-w-3xl">
             <header className="mb-12">
-              <div className="flex items-center gap-4 text-foreground/60 text-sm mb-4">
-                <span>10 Min. Lesezeit</span>
-              </div>
               <h1 className="heading-1 text-foreground mb-6">
                 Anleitung und Ablauf
               </h1>

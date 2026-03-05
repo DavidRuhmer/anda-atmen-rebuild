@@ -66,11 +66,6 @@ export default function WasIstHolotropesAtmenPage() {
           </nav>
 
           <header className="max-w-3xl mb-12">
-            <div className="flex items-center gap-4 text-foreground/60 text-sm mb-4">
-              <span>8 Min. Lesezeit</span>
-              <span>•</span>
-              <span>Aktualisiert: Februar 2026</span>
-            </div>
             <h1 className="heading-1 text-foreground mb-6">
               Was ist Holotropes Atmen?
             </h1>

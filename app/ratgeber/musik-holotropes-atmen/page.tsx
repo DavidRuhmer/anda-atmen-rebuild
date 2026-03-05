@@ -43,9 +43,6 @@ export default function MusikHolotropesAtmenPage() {
 
           <div className="max-w-3xl">
             <header className="mb-12">
-              <div className="flex items-center gap-4 text-foreground/60 text-sm mb-4">
-                <span>7 Min. Lesezeit</span>
-              </div>
               <h1 className="heading-1 text-foreground mb-6">
                 Die Rolle der Musik
               </h1>
